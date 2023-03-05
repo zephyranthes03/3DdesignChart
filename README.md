@@ -13,7 +13,7 @@ To use this 3D printer creator minter, you'll need to do the following:
 
 1. Run `npm install` to download the `node_modules` folder.
 2. Download the [dotenv package](https://www.npmjs.com/package/dotenv) in your project directory by running `npm install dotenv --save` in your terminal
-3. Download hardhat in your project directory by running 'npm install hardhat --save;npx hardhat compile' and deploy by this command 'npm run script/deploy.js --network goerli'
+3. Download hardhat in your project directory by running `npm install hardhat --save;npx hardhat;npx hardhat compile` and deploy by this command `npm run script/deploy.js --network goerli`
 3. Create a `.env` file in the root directory this `3D design nft-minter` and add your [Alchemy API Key](https://docs.alchemyapi.io/alchemy/tutorials/nft-minter#create-your-alchemy-api-key) and [Pinata Key and Secret](https://pinata.cloud/keys). Altogether, your `.env` file should look like so:
 
 ```
